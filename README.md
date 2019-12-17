@@ -26,9 +26,13 @@ Each hashtag starts with # and does not have space.
 Clicking on each hashtag such as #x will redirect us to page hashtag.jsp
 This page lists all the tweets in which #x is mentioned.
 You need to make two new tables for hashtags
-#### Hashtag (hashtagID, hashtagText, hashtagCount) 
-##### Stores all unique hashtags, along with their counts. 
-#### tweetHashtag (tweetID, hashtagID)
+```java
+Hashtag (hashtagID, hashtagText, hashtagCount) 
+```
+##### Stores all unique hashtags, along with their counts.  
+```java
+tweetHashtag (tweetID, hashtagID)
+```
 ##### Stores which hashtag is mentioned in which tweet.
 
 ### Trending Hashtags
