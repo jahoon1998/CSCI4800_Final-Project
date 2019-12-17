@@ -1,5 +1,5 @@
 ## Dec 06, 2018
-# CSCI 4800 Web Application Devlopment Final Project
+# CSCI 4800 Web Application Development Final Project
 
 We will complete our minimalist implementation of twitter in this final project.
 You can add new fields, methods, etc. as needed, as long as you commit to the MVC architecture.
